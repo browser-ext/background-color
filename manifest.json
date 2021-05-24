@@ -1,0 +1,10 @@
+{
+	"name": "Background Color Selector",
+	"description": "Chrome extension for changing the background color of your current tab",
+	"version": "1.0",
+	"manifest_version": 3,
+	"background": {
+		"service_worker": "background.js"
+	},
+	"permissions": ["storage"]
+}
